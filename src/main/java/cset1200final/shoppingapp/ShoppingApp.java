@@ -127,11 +127,6 @@ public class ShoppingApp {
             
         } 
        
-       /*Merchandise ball = new Merchandise(10.00, "baseball", "throw it");
-       System.out.println(ball.getPrice());
-       
-       inventory.add(ball);
-       System.out.println(inventory.get(0).getPrice());*/
        
     }
 }
