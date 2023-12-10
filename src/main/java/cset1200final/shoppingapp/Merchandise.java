@@ -10,11 +10,15 @@ public class Merchandise {
     Merchandise(double price, String name, String description){
         this.price = price;
         this.name = name;
-        description = this.description;
+        this.description = description;
     }
     
     public String getName(){
         return name;
+    }
+    
+    public double getPrice(){
+        return this.price;
     }
     
     public String toString(){
