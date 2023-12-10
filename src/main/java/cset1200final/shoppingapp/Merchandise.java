@@ -6,11 +6,13 @@ public class Merchandise {
     protected double price = 0;
     protected String name = "";
     protected String description = "";
+    protected String seller = "";
     
-    Merchandise(double price, String name, String description){
+    Merchandise(double price, String name, String description, String seller){
         this.price = price;
         this.name = name;
         this.description = description;
+        this.seller = seller;
     }
     
     public String getName(){
